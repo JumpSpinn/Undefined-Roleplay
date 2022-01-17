@@ -6,22 +6,21 @@ on:
       - released
 
   workflow_dispatch:
-
-jobs:
-  deploy:
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-    runs-on: ${{ matrix.os }}
-    steos:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Install Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-versiob: 10.x
-      - run: npm ci
-      - name: Publish
-        run: npm run deploy
-        env:
-          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+    jobs:
+      deploy:
+        strategy:
+          matrix:
+            os: [ubuntu-latest]
+        runs-on: ${{ matrix.os }}
+        steos:
+          - name: Checkout
+            uses: actions/checkout@v2
+          - name: Install Node.js
+            uses: actions/setup-node@v1
+            with:
+              node-versiob: 10.x
+          - run: npm ci
+          - name: Publish
+            run: npm run deploy
+            env:
+              VSCE_PAT: ${{ secrets.VSCE_PAT }}

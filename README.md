@@ -1,3 +1,3 @@
-# README
-## Visual Studio Code Theme für das Projekt Undefined-Roleplay Dev-Team"
-Visual Studio Code Theme für das Projekt Undefined-Roleplay Dev-Team
+# Beschreibung
+## Visual Studio Code: Theme | Undefined-Roleplay
+Dieses Theme ist noch in Arbeit, bitte habe noch etwas Geduld!
