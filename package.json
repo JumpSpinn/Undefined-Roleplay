@@ -1,5 +1,5 @@
 {
-    "name": "Undefined-Roleplay - Theme",
+    "name": "Undefined-Roleplay",
     "displayName": "Undefined-Roleplay.de",
     "description": "Undefined",
     "version": "0.0.1",
@@ -26,13 +26,11 @@
         "undefined-roleplay, undefined, roleplay"
     ],
     "contributes": {
-        "themes": [
-            {
-                "label": "Undefined-Roleplay - Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Undefined-Roleplay.de - Theme-color-theme.json"
-            }
-        ]
+        "themes": [{
+            "label": "Undefined-Roleplay - Theme",
+            "uiTheme": "vs-dark",
+            "path": "./themes/Undefined-Roleplay.de - Theme-color-theme.json"
+        }]
     },
     "devDependencies": {
         "vsce": "^2.6.3"
