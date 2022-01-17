@@ -1,21 +1,33 @@
 {
-    "name": "Undefined-Roleplay",
+    "name": "Undefined-Roleplay - Theme",
     "displayName": "Undefined-Roleplay.de",
     "description": "Undefined",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.63.0"
     },
+    "publisher": "Undefined-Roleplay",
     "categories": [
         "Themes"
     ],
+    "galleryBanner": {
+        "color": "#0C1016",
+        "theme": "dark"
+    },
+    "bugs": {
+        "url": "https://github.com/JumpSpinn/Undefined-Roleplay/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JumpSpinn/Undefined-Roleplay"
+    },
+    "icon": "icon.png",
+    "keywords": ["undefined-roleplay, undefined, roleplay"],
     "contributes": {
-        "themes": [
-            {
-                "label": "Undefined-Roleplay.de - Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Undefined-Roleplay.de - Theme-color-theme.json"
-            }
-        ]
+        "themes": [{
+            "label": "Undefined-Roleplay - Theme",
+            "uiTheme": "vs-dark",
+            "path": "./themes/Undefined-Roleplay.de - Theme-color-theme.json"
+        }]
     }
 }
