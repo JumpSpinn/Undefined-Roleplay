@@ -22,12 +22,19 @@
         "url": "https://github.com/JumpSpinn/Undefined-Roleplay"
     },
     "icon": "icon.png",
-    "keywords": ["undefined-roleplay, undefined, roleplay"],
+    "keywords": [
+        "undefined-roleplay, undefined, roleplay"
+    ],
     "contributes": {
-        "themes": [{
-            "label": "Undefined-Roleplay - Theme",
-            "uiTheme": "vs-dark",
-            "path": "./themes/Undefined-Roleplay.de - Theme-color-theme.json"
-        }]
+        "themes": [
+            {
+                "label": "Undefined-Roleplay - Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Undefined-Roleplay.de - Theme-color-theme.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "vsce": "^2.6.3"
     }
 }
