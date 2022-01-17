@@ -6,6 +6,9 @@
     "engines": {
         "vscode": "^1.63.0"
     },
+    "scripts": {
+        "deploy": "vsce publish --yarn"
+    },
     "publisher": "Undefined-Roleplay",
     "categories": [
         "Themes"
