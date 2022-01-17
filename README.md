@@ -1,2 +1,3 @@
 # README
-## This is the README for your extension "Undefined-Roleplay"
+## Visual Studio Code Theme für das Projekt Undefined-Roleplay Dev-Team"
+Visual Studio Code Theme für das Projekt Undefined-Roleplay Dev-Team
