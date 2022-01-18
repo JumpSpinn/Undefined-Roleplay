@@ -1,11 +1,115 @@
 {
+	// Theme Color Documentation:
+	// https://code.visualstudio.com/api/references/theme-color
+
+	// Syntax Highlight Guide
+	//https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide
+
 	"name": "Undefined-Roleplay - Theme",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		// Contrast colors
+		"contrastActiveBorder": "#f2dc5d",
+		"contrastBorder": "#1B1B1B",
+
+		// Base colors
+		"focusBorder": "#F2DC5D",
+		"foreground": "#969197",
+		"widget.shadow": "#00a8c200",
+		"selection.background": "#1B1B1B",
+		"descriptionForeground": "",
+		"errorForeground": "",
+		"icon.foreground": "#625F63",
+		"sash.hoverBorder": "",
+
+		// Window border
+		"window.activeBorder": "",
+		"window.inactiveBorder": "",
+
+		// Text colors
+		"textBlockQuote.background": "",
+		"textBlockQuote.border": "",
+		"textLink.activeForeground": "#00A1B9",
+		"textLink.foreground": "#625F63",
+		"textPreformat.foreground": "#00A1B9",
+		"textSeparator.foreground": "",
+
+		// Action colors
+		"toolbar.hoverBackground": "#00a0b9",
+		"toolbar.hoverOutline": "#00A1B9",
+		"toolbar.activeBackground": "#00A1B9",
+
+		// Button Control
+		"button.background": "#00a0b900",
+		"button.foreground": "#fffefe",
+		"button.border": "#00525f",
+		"button.hoverBackground": "#00A1B9",
+		"button.secondaryForeground": "",
+		"button.secondaryBackground": "",
+		"button.secondaryHoverBackground": "",
+		"checkbox.background": "#00a0b900",
+		"checkbox.foreground": "#fffefe",
+		"checkbox.border": "#00525f",
+
+		// Dropdown control
+		"dropdown.background": "#272727",
+		"dropdown.listBackground": "#242424",
+		"dropdown.border": "#fffefe57",
+		"dropdown.foreground": "#fffefe",
+
+		// Scrollbar control
+		"scrollbar.shadow": "#f2dc5d",
+		"scrollbarSlider.activeBackground": "#00a0b99f",
+		"scrollbarSlider.background": "#00a0b949",
+		"scrollbarSlider.hoverBackground": "#00a0b949",
+
+		// Bade
+		"badge.foreground": "#000",
+		"badge.background": "#00A1B9",
+
+		// Lists and Trees
+		"list.activeSelectionBackground": "#242424",
+		"list.activeSelectionForeground": "#00A1B9",
+		"list.dropBackground": "#181818",
+
+		// Activity Bar
+		"activityBar.background": "#0f0f0f",
+		"activityBar.foreground": "#f2dc5d",
+		"activityBar.inactiveForeground": "#fffefe34",
+		"activityBar.border": "#fffefe3b",
+		"activityBarBadge.background": "#F2DC5D",
+		"activityBarBadge.foreground": "#000",
+		"activityBar.activeBorder": "#00A1B9",
+		"activityBar.activeBackground": "#fffefe17",
+
+		// Side Bar
+		"sideBar.background": "#141414",
+		"sideBar.border": "#fffefe3b",
+		"sideBar.foreground": "#fffefe48",
+		"sideBarTitle.foreground": "#F2DC5D",
+		"sideBarSectionHeader.background": "#202020",
+		"sideBarSectionHeader.foreground": "#fffefe71",
+		"sideBarSectionHeader.border": "#fffefe3b",
+
+		// Editor Colors
+		"editor.background": "#1a1a1a",
+		"editor.foreground": "#ffffff62",
+		"editorLineNumber.foreground": "#fffefe1e",
+		"editorLineNumber.activeForeground": "#F2DC5D",
+		"editorCursor.foreground": "#00A1B9",
+		"editor.selectionBackground": "#00a0b983",
+		"editor.inactiveSelectionBackground": "#00a0b933",
+		"editor.selectionHighlightBackground": "#00a0b9be",
+		"editor.selectionHighlightBorder": "#00a0b9cc",
+		"editor.lineHighlightBorder": "#00a0b97c",
+		"editor.lineHighlightBackground": "#00a0b921",
+		"editor.findMatchBackground": "#00A1B9",
+		"editor.findMatchHighlightBackground": "#00a0b967",
+		"editor.findMatchBorder": "#00a0b9ad",
+		"editor.findMatchHighlightBorder": "#00a0b9ad",
+		"editorWhitespace.foreground": "#00A1B9",
+		"editorLightBulb.foreground": "#F2DC5D",
+
 	},
 	"tokenColors": [
 		{
