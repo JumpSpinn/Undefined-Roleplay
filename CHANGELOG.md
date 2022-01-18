@@ -21,3 +21,26 @@ All notable changes to the "Undefined-Roleplay" extension will be documented in 
 - Add: Activity Bar
 - Add: Side Bar
 - Add: Editor Colors
+## [0.0.4]
+- Add: Editor Groups
+- Add: Tabs
+- Add: Status Bar colors
+- Add: Title Bar colors
+- Add: Menu Bar colors
+
+- Changed: editor.foreground
+- Changed: editorWhitespace.foreground
+- Changed: editor.selectionBackground
+- Changed: editor.inactiveSelectionBackground
+- Changed: editor.selectionHighlightBackground
+- Changed: editor.selectionHighlightBorder
+- Changed: editor.lineHighlightBorder
+- Changed: editor.lineHighlightBackground
+
+- Removed: descriptionForeground
+- Removed: errorForeground
+- Removed: sash.hoverBorder
+- Removed: textSeparator.foreground
+- Removed: button.secondaryForeground
+- Removed: button.secondaryBackground
+- Removed: button.secondaryHoverBackground
