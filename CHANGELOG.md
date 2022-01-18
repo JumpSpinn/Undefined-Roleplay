@@ -27,7 +27,6 @@ All notable changes to the "Undefined-Roleplay" extension will be documented in 
 - Add: Status Bar colors
 - Add: Title Bar colors
 - Add: Menu Bar colors
-
 - Changed: editor.foreground
 - Changed: editorWhitespace.foreground
 - Changed: editor.selectionBackground
@@ -36,7 +35,6 @@ All notable changes to the "Undefined-Roleplay" extension will be documented in 
 - Changed: editor.selectionHighlightBorder
 - Changed: editor.lineHighlightBorder
 - Changed: editor.lineHighlightBackground
-
 - Removed: descriptionForeground
 - Removed: errorForeground
 - Removed: sash.hoverBorder
